@@ -1,0 +1,194 @@
+{
+  {
+    "id": 1,
+    "titulo": "El Padrino",
+    "año": 1972,
+    "director": "Francis Ford Coppola",
+    "genero": "Drama",
+    "descripcion": "Historia de la familia Corleone."
+
+  {
+    "id": 2,
+    "titulo": "El Caballero Oscuro",
+    "año": 2008,
+    "director": "Christopher Nolan",
+    "genero": "Acción",
+    "descripcion": "Batman lucha contra el Joker."
+  },
+  {
+    "id": 3,
+    "titulo": "Pulp Fiction",
+    "año": 1994,
+    "director": "Quentin Tarantino",
+    "genero": "Crimen",
+    "descripcion": "Varias historias de crimen entrelazadas."
+  },
+  {
+    "id": 4,
+    "titulo": "El Señor de los Anillos: El Retorno del Rey",
+    "año": 2003,
+    "director": "Peter Jackson",
+    "genero": "Aventura",
+    "descripcion": "La última batalla por la Tierra Media."
+  },
+  {
+    "id": 5,
+    "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+    "año": 2001,
+    "director": "Peter Jackson",
+    "genero": "Aventura",
+    "descripcion": "El comienzo de la épica trilogía de El Señor de los Anillos."
+  },
+  {
+    "id": 6,
+    "titulo": "Forrest Gump",
+    "año": 1994,
+    "director": "Robert Zemeckis",
+    "genero": "Drama",
+    "descripcion": "La historia de un hombre simple que influye en varios eventos históricos."
+  },
+  {
+    "id": 7,
+    "titulo": "Inception",
+    "año": 2010,
+    "director": "Christopher Nolan",
+    "genero": "Ciencia Ficción",
+    "descripcion": "Un ladrón que roba secretos corporativos a través del uso de la tecnología de sueños compartidos."
+  },
+  {
+    "id": 8,
+    "titulo": "Star Wars: Episodio V - El Imperio Contraataca",
+    "año": 1980,
+    "director": "Irvin Kershner",
+    "genero": "Ciencia Ficción",
+    "descripcion": "La Rebelión lucha contra el Imperio Galáctico."
+  },
+  {
+    "id": 9,
+    "titulo": "El Señor de los Anillos: Las Dos Torres",
+    "año": 2002,
+    "director": "Peter Jackson",
+    "genero": "Aventura",
+    "descripcion": "La segunda parte de la trilogía de El Señor de los Anillos."
+  },
+  {
+    "id": 10,
+    "titulo": "El Club de la Pelea",
+    "año": 1999,
+    "director": "David Fincher",
+    "genero": "Drama",
+    "descripcion": "Un narrador insomne forma un club secreto de lucha con un vendedor de jabón."
+  },
+  {
+    "id": 11,
+    "titulo": "El Origen",
+    "año": 2010,
+    "director": "Christopher Nolan",
+    "genero": "Ciencia Ficción",
+    "descripcion": "Un experto en el arte de robar secretos a través de los sueños."
+  },
+  {
+    "id": 12,
+    "titulo": "Forrest Gump",
+    "año": 1994,
+    "director": "Robert Zemeckis",
+    "genero": "Drama",
+    "descripcion": "La extraordinaria vida de un hombre simple."
+  },
+  {
+    "id": 13,
+    "titulo": "El Bueno, el Malo y el Feo",
+    "año": 1966,
+    "director": "Sergio Leone",
+    "genero": "Western",
+    "descripcion": "Tres hombres buscan un tesoro en medio de la Guerra Civil Americana."
+  },
+  {
+    "id": 14,
+    "titulo": "La Lista de Schindler",
+    "año": 1993,
+    "director": "Steven Spielberg",
+    "genero": "Historia",
+    "descripcion": "La historia real de cómo un empresario salvó a más de mil judíos durante el Holocausto."
+  },
+  {
+    "id": 15,
+    "titulo": "12 Hombres en Pugna",
+    "año": 1957,
+    "director": "Sidney Lumet",
+    "genero": "Drama",
+    "descripcion": "Un jurado intenta llegar a un veredicto en un caso de asesinato."
+  },
+  {
+    "id": 16,
+    "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+    "año": 2001,
+    "director": "Peter Jackson",
+    "genero": "Aventura",
+    "descripcion": "Un hobbit se embarca en una aventura para destruir un anillo poderoso."
+  },
+  {
+    "id": 17,
+    "titulo": "El Caballero Oscuro: La Leyenda Renace",
+    "año": 2012,
+    "director": "Christopher Nolan",
+    "genero": "Acción",
+    "descripcion": "Batman regresa a Gotham después de ocho años para enfrentarse a un nuevo enemigo."
+  },
+  {
+    "id": 18,
+    "titulo": "El Origen",
+    "año": 2010,
+    "director": "Christopher Nolan",
+    "genero": "Ciencia Ficción",
+    "descripcion": "Un experto en el arte de robar secretos a través de los sueños."
+  },
+  {
+    "id": 19,
+    "titulo": "Star Wars: Episodio IV - Una Nueva Esperanza",
+    "año": 1977,
+    "director": "George Lucas",
+    "genero": "Ciencia Ficción",
+    "descripcion": "La primera entrega de la saga de Star Wars."
+  },
+  {
+    "id": 20,
+    "titulo": "El Silencio de los Inocentes",
+    "año": 1991,
+    "director": "Jonathan Demme",
+    "genero": "Thriller",
+    "descripcion": "Un agente del FBI busca la ayuda de un asesino caníbal para atrapar a otro asesino en serie."
+  },
+  {
+    "id": 21,
+    "titulo": "Salvar al Soldado Ryan",
+    "año": 1998,
+    "director": "Steven Spielberg",
+    "genero": "Guerra",
+    "descripcion": "La misión de un grupo de soldados para rescatar a un soldado en la Segunda Guerra Mundial."
+  },
+  {
+    "id": 22,
+    "titulo": "Los Siete Samuráis",
+    "año": 1954,
+    "director": "Akira Kurosawa",
+    "genero": "Acción",
+    "descripcion": "Siete samuráis ayudan a proteger una aldea de bandidos."
+  },
+  {
+    "id": 23,
+    "titulo": "La Vida es Bella",
+    "año": 1997,
+    "director": "Roberto Benigni",
+    "genero": "Drama",
+    "descripcion": "Un padre utiliza su imaginación para proteger a su hijo de los horrores de un campo de concentración."
+  },
+  {
+    "id": 24,
+    "titulo": "Ciudad de Dios",
+    "año": 2002,
+    "director": "Fernando Meirelles",
+    "genero": "Crimen",
+    "descripcion": "La vida en las favelas de Río de Janeiro."
+  }
+}
