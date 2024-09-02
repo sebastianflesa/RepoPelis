@@ -15,20 +15,19 @@ import com.cine.demo.service.PeliculaService;
 
 @RestController
 @RequestMapping("/peliculas")
-public class PeliculaController {
-
+public class PeliculasController {
     @Autowired
     private PeliculaService peliculaService;
 
     @GetMapping
-    public List<Pelicula> getAllPeliculas() {
-        return peliculaService.getPeliculas();
+    public List<Pelicula> getAllPeliculas(){
+        return peliculaService.getAllPeliculas();
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<?> getPeliculaById(@PathVariable Integer id) {
+    public ResponseEntity<?> getPeliculaById(@PathVariable Long id) {
         Optional<Pelicula> pelicula = peliculaService.getPeliculaById(id);
-        if (pelicula.isPresent()) {
+        if (pelicula.get().getId()!= null) {
             return ResponseEntity.ok(pelicula.get());
         } else {
             Map<String, Object> map = new HashMap<String, Object>();

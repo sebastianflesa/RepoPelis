@@ -1,12 +1,34 @@
 package com.cine.demo.model;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import jakarta.persistence.GenerationType;
+
+
+@Entity
+@Table
 public class Pelicula {
+    @Id
+    @GeneratedValue(strategy =  GenerationType.IDENTITY)
+    @Column(name = "id")
     private Integer id;
+    @Column(name = "titulo")
     private String titulo;
+    @Column(name = "ano")
     private int ano;
+    @Column(name = "director")
     private String director;
+    @Column(name = "genero")
     private String genero;
+    @Column(name = "sinopsis")
     private String sinopsis;
+
+    public Pelicula() {
+        
+    }
     
     public Pelicula(Integer id, String titulo, int ano, String director, String genero, String sinopsis) {
         this.id = id;
