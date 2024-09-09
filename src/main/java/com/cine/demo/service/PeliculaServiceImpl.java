@@ -25,6 +25,47 @@ public class PeliculaServiceImpl implements PeliculaService{
         }
         return peliculaRepository.findById(id);
     }
+
+    @Override
+    public Pelicula updatePelicula(Long id, Pelicula pelicula) {
+       if(peliculaRepository.existsById(id)){
+            pelicula.setId(id.intValue());
+            return peliculaRepository.save(pelicula);
+       }else{
+            throw new IllegalArgumentException("Pelicula no encontrada");
+       }
+               
+    }
+
+    @Override
+    public Pelicula createPelicula(Pelicula pelicula) {
+        if (pelicula.getTitulo() == null || pelicula.getTitulo().isEmpty()) {
+            throw new IllegalArgumentException("titulo vacio");
+        }
+        if (pelicula.getDirector() == null || pelicula.getDirector().isEmpty()) {
+            throw new IllegalArgumentException("director vacío");
+        }
+        if (pelicula.getAno() == 0) {
+            throw new IllegalArgumentException("anho vacío");
+        }
+        if (pelicula.getGenero() == null || pelicula.getGenero().isEmpty()) {
+            throw new IllegalArgumentException("genero vacío");
+        }
+
+        if (pelicula.getSinopsis() == null || pelicula.getSinopsis().isEmpty()) {
+            throw new IllegalArgumentException("sinopsis vacío");
+        }
+       
+    
+        return peliculaRepository.save(pelicula);
+    }
+
+    @Override
+    public void deletePelicula(Long id) {
+        peliculaRepository.deleteById(id);
+    }
+
+
     
     
     
